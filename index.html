@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #ffe6f0, #fff0f5);
+      background-image: url('https://www.transparenttextures.com/patterns/cloudy.png'); /* cloudy effect */
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      background-color: #ffb6c1;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 0;
+    }
+    h2 {
+      color: #d63384;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background-color: rgba(255, 182, 193, 0.5);
+      border-radius: 10px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: #b30059;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #333;
+    }
+    .card {
+      border: none;
+      background-color: #fff0f5;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #ffb6c1;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#welcome">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Welcome Section -->
+  <section id="welcome" class="hero container">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi! I'm Jamma Moira P. Rodriguez, A 3rd year Bachelor of Science in Information Technology student at Batangas State University, Showcasing my journey, skills, and projects as an aspiring IT Service Management. </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="container text-center">
+    <h2>My IT Skills</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>Web Development</h5>
+          <p>Building responsive and user-friendly websites using HTML, CSS, JavaScript, and Bootstrap.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>Database Management</h5>
+          <p>Experience with MySQL and database design to manage and organize data effectively.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>Problem Solving</h5>
+          <p>Strong analytical and logical thinking skills for debugging and optimizing code.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2 class="text-center">My Projects</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card p-3 mb-3">
+          <h5>Activity 1</h5>
+          <p>INTRODUCTION</p>
+          <a href="https://jamma663.github.io/wts-activity-github.io3/" target="_blank" class="btn btn-outline-danger">View Project</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 mb-3">
+          <h5>Activity 2</h5>
+          <p>SANRIO CHARACTERS GALLERY</p>
+          <a href="https://jamma663.github.io/wts-activity-2/" target="_blank" class="btn btn-outline-danger">View Project</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 mb-3">
+          <h5>Activity 3</h5>
+          <p>ABOUT ME</p>
+          <a href="https://jamma663.github.io/activity-3../" target="_blank" class="btn btn-outline-danger">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container text-center">
+    <h2>Contact Me</h2>
+    <p>Email: jmprfourteen@email.com</p>
+    <p>Phone: 0955-439-3358</p>
+    <p>Facebook: Jamma Moira Rodriguez</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p> My Portfolio - Jamma Moira Rodriguez | Designed with ❤️ using HTML, CSS & Bootstrap</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
